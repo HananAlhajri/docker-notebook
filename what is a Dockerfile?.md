@@ -1,4 +1,4 @@
-# what is a Dockerfile?
+# What is a Dockerfile?
 It is a blueprint for building images. To build docker image for an application, we need to copy the content of the application into the dockefile (the artifact we built 'jar, war, etc...'). 
 
 ### the first line of every dockerfile is: 
@@ -31,3 +31,15 @@ COPY . /home/app
 is ALWAYS a part of dockerfile. what it does it executes an entry point linux command.
 
 <img width="1918" alt="image" src="https://github.com/HananAlhajri/docker-compose/assets/92547643/6b35ae7e-3b59-4958-8f92-8f7cf12e5632">
+the left side of the image illustrate what actually happens in the container, what it can do. As on the right side, the commands we've just gone through.
+
+# How to build an image using your Dockerfile
+
+using 'docker build' command, you have to give your image 2 parameters 
+1. -t NAME : TAG (( could be anything of your choice -> ex: my-app-name:version-1 ))
+2. location of a Dockerfile (( if you are standing on the same folder as the Dockerfile, just provide a 'dot' which means 'current directory' ))
+
+
+```
+docker build -t my-app:1.0 .
+```
