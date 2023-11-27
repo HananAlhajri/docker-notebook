@@ -1,5 +1,5 @@
 # docker-compose
-collection of docker-compose for differebt images and containers 
+collection of docker-compose for different images and containers 
 
 # how to run 
 1. download the file you need.
