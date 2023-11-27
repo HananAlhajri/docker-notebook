@@ -53,3 +53,4 @@ docker stop container-id
 # great resources 
 <li>https://www.youtube.com/watch?v=3c-iBn73dDE&list=PLy7NrYWoggjxtN4YbSMYFFdpaxb-fR4zC&index=1</li>
 <li>https://www.ajfriesen.com/how-to-find-all-the-docker-run-flags/</li>
+<li>https://www.baeldung.com/java-dockerize-app</li>
