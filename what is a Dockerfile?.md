@@ -39,7 +39,10 @@ using 'docker build' command, you have to give your image 2 parameters
 1. -t NAME : TAG (( could be anything of your choice -> ex: my-app-name:version-1 ))
 2. location of a Dockerfile (( if you are standing on the same folder as the Dockerfile, just provide a 'dot' which means 'current directory' ))
 
-
 ```
 docker build -t my-app:1.0 .
 ```
+
+# Notes
+<li>Whenever you adjust your Dockerfile, you MUST RE-BUILD the Image!</li>
+
